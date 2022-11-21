@@ -1,0 +1,11 @@
+# Programação Paralela com Open MP
+
+# Execute
+<ol>
+    <li>Clona o projeto do github</li>
+    <li>Certifique-se que você tenha o C e o processador GCC instalado na sua máquina</li>
+    <li>No terminal faz o seguinte comando: <code>gcc -fopenmp -o file-name fileName.c</code></li>
+    <li>Após compilar o código em C, roda o comando no terminal <code>./fileName.exe</code> ou <code>./fileName</code> para executar o programa</li>
+</ol>
+
+Na execução vai executar o paralelismo dependendo da quantidade de núcleos que seu processador tem.
