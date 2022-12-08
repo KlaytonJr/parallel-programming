@@ -30,3 +30,6 @@ Já utilizando o método do paralelismo, várias atividades são feitas ao mesmo
 Para saber o valor da variável de ambiente (no terminal)
 echo $OMP_NUM_THREADS
 ```
+
+<code>gcc -fopenmp -o file-name fileName.c</code>
+<code>gcc -o file-name fileName.c</code>
